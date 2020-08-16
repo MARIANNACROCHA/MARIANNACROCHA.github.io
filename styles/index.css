@@ -1,0 +1,39 @@
+
+.heart {
+    margin: 50px;
+    background-color:  #A7837F;
+    height: 50px;
+    transform: rotate(-45deg);
+    width: 50px;
+    position: relative;
+    animation: myfirst 5s linear 1s infinite alternate;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: #A7837F;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+
+.heart:before {
+    top: -25px;
+}
+
+.heart:after {
+    left: 25px;
+}
+
+@keyframes myfirst {
+   0%   {left:0px; top:0px;}
+   25%  {left:800px; top:0px;}
+   50%  {left:800px; top:0px;}
+   75%  {left:0px; top:0px;}
+   100% {left:800px; top:0px;}
+}
+
+
+

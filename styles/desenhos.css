@@ -1,0 +1,21 @@
+#imagem11,#imagem12,#imagem13,#imagem14,#imagem15,#imagem16,#imagem17{
+    width: 100px ;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid #A7837F;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px black;
+}
+
+#origamis ul li {
+    display: inline-block;
+    list-style: none;
+    list-style-type: none;
+    margin: 10px;   
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+

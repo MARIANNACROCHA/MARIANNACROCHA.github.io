@@ -1,0 +1,85 @@
+body {
+    background-image: url(../styles/background/90842.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    background-color: #F3E6E6;
+    padding: 5px;
+    margin:0 auto;
+    box-sizing: border-box;
+    width: 960px;
+    border-radius: 5px;
+}
+
+h1 {
+    display: none;
+}
+
+h2, header {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#profilepic {
+    border-radius: 50%;
+    border: solid 5px #A7837F;
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#menu {
+    background-color: #A7837F;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    list-style-type: none;
+    margin: 10px; 
+    font-family: 'Indie Flower', cursive;  
+}
+  
+#menu ul li a {
+    color: #FFF;
+    padding: 8px 10px 10px;  
+}
+
+#menu ul li a:hover {
+    background:  #F3E6E6;
+}
+
+footer {
+    padding: 10px;
+    border-top: ridge 2px #630;
+    text-align: right;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+audio {
+    width: 200px;
+    height: 16px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color:#A7837F;
+    
+}
