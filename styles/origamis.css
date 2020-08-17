@@ -43,61 +43,61 @@ h3 {
     #imagem1 {
         position:absolute;
         left: 18%;
-        top: 58%;
+        top: 60%;
     }
 
     #imagem2 {
         position:absolute;
         left: 44%;
-        top: 58%;
+        top: 60%;
     }
 
     #imagem3 {
         position:absolute;
         left: 68%;
-        top: 58%;
+        top: 60%;
     }
 
     #imagem4 {
         position:absolute;
         left: 18%;
-        top: 70%;
+        top: 72%;
     }
 
     #imagem5 {
         position:absolute;
         left: 44%;
-        top: 70%;
+        top: 72%;
     }
 
     #imagem6 {
         position:absolute;
         left: 68%;
-        top: 70%;
+        top: 72%;
     }
 
     #imagem7 {
         position:absolute;
         left: 18%;
-        top: 82%;
+        top: 84%;
     }
 
     #imagem8 {
         position:absolute;
         left: 44%;
-        top: 82%;
+        top: 84%;
     }
 
     #imagem9 {
         position:absolute;
         left: 68%;
-        top: 82%;
+        top: 84%;
     }
 
     #imagem10 {
         position:absolute;
         left: 18%;
-        top: 94%;
+        top: 96%;
     }
 
     footer {
@@ -106,72 +106,4 @@ h3 {
         
     }
 }
-
-/* @media screen and (min-width: 750px) and(max-width: 900px){
-    #imagem1 {
-        position:absolute;
-        left: 18%;
-        top: 20%;
-    } */
-
-
-
-
-/* @media (min-width: 00px) {
-    
-
-    #imagem2 {
-        position:absolute;
-        left: 44%;
-        top: 5%;
-    }
-
-    #imagem3 {
-        position:absolute;
-        left: 68%;
-        top: 50%;
-    }
-
-    #imagem4 {
-        position:absolute;
-        left: 18%;
-        top: 60%;
-    }
-
-    #imagem5 {
-        position:absolute;
-        left: 44%;
-        top: 60%;
-    }
-
-    #imagem6 {
-        position:absolute;
-        left: 68%;
-        top: 60%;
-    }
-
-    #imagem7 {
-        position:absolute;
-        left: 18%;
-        top: 70%;
-    }
-
-    #imagem8 {
-        position:absolute;
-        left: 44%;
-        top: 70%;
-    }
-
-    #imagem9 {
-        position:absolute;
-        left: 68%;
-        top: 70%;
-    }
-
-    #imagem10 {
-        position:absolute;
-        left: 18%;
-        top: 80%;
-    }
-} */
 
