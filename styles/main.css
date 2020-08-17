@@ -83,3 +83,56 @@ audio::-webkit-media-controls-panel {
     background-color:#A7837F;
     
 }
+
+@media (max-width: 640px) {
+    #container {
+        background-color: #F3E6E6;
+        padding: 5px;
+        margin:0 auto;
+        box-sizing: border-box;
+        width: 21em;
+        height: 55em;
+        border-radius: 5px;
+    } 
+    #profilepic {
+        border-radius: 50%;
+        border: solid 2px #A7837F;
+        width: 120px;
+        height: 120px;
+    }
+    h2{
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 800px)  {
+    #container {
+        background-color: #F3E6E6;
+        padding: 5px;
+        margin:0 auto;
+        box-sizing: border-box;
+        width: 40em;
+        height: 50em;
+        border-radius: 5px;
+    } 
+
+    #profilepic {
+        border-radius: 50%;
+        border: solid 2px #A7837F;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 900px) {
+    #container {
+        background-color: #F3E6E6;
+        padding: 5px;
+        margin:0 auto;
+        box-sizing: border-box;
+        width: 60em;
+        height: 69em; 
+        border-radius: 5px;
+    }
+}

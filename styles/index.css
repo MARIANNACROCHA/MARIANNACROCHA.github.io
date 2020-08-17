@@ -28,12 +28,30 @@
 }
 
 @keyframes myfirst {
-   0%   {left:0px; top:0px;}
-   25%  {left:800px; top:0px;}
-   50%  {left:800px; top:0px;}
-   75%  {left:0px; top:0px;}
-   100% {left:800px; top:0px;}
+0%   {left:0px; top:0px;}
+25%  {left:800px; top:0px;}
+50%  {left:800px; top:0px;}
+75%  {left:0px; top:0px;}
+100% {left:800px; top:0px;}
 }
 
+@media (max-width: 640px) {
+    @keyframes myfirst {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:0px;}
+    75%  {left:0px; top:0px;}
+    100% {left:200px; top:0px;}
+    }
 
+}
 
+@media (min-width: 800px) {
+    @keyframes myfirst {
+        0%   {left:0px; top:0px;}
+        25%  {left:400px; top:0px;}
+        50%  {left:400px; top:0px;}
+        75%  {left:0px; top:0px;}
+        100% {left:400px; top:0px;}
+    }
+}

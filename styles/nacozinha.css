@@ -10,3 +10,17 @@ figure {
     box-sizing: border-box;
     box-shadow: 0px 0px 8px black;
 }
+
+@media only screen and (max-width: 640px) {
+    #banner_cozinha {
+        width: 200px;
+        height: 130px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #banner_cozinha {
+        width: 200px;
+        height: 130px;
+    }
+}

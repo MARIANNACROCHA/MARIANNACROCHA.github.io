@@ -7,6 +7,8 @@
     border: 2px solid #A7837F;
     box-sizing: border-box;
     box-shadow: 0px 0px 8px black;
+    display: flex;
+    
 }
 
 #origamis ul li {
@@ -21,5 +23,154 @@ h3 {
     text-align: center;
 }
 
+@media (max-width: 640px) {
+    h3 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    #imagem1,#imagem2,#imagem3,#imagem4,#imagem5,#imagem6,#imagem7,
+    #imagem8,#imagem9,#imagem10 
+        {
+        width: 50px ;
+        height: 50px;
+        border-radius: 5px;
+        border: 2px solid #A7837F;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 8px black;
+    }
 
+    #imagem1 {
+        position:absolute;
+        left: 18%;
+        top: 58%;
+    }
+
+    #imagem2 {
+        position:absolute;
+        left: 44%;
+        top: 58%;
+    }
+
+    #imagem3 {
+        position:absolute;
+        left: 68%;
+        top: 58%;
+    }
+
+    #imagem4 {
+        position:absolute;
+        left: 18%;
+        top: 70%;
+    }
+
+    #imagem5 {
+        position:absolute;
+        left: 44%;
+        top: 70%;
+    }
+
+    #imagem6 {
+        position:absolute;
+        left: 68%;
+        top: 70%;
+    }
+
+    #imagem7 {
+        position:absolute;
+        left: 18%;
+        top: 82%;
+    }
+
+    #imagem8 {
+        position:absolute;
+        left: 44%;
+        top: 82%;
+    }
+
+    #imagem9 {
+        position:absolute;
+        left: 68%;
+        top: 82%;
+    }
+
+    #imagem10 {
+        position:absolute;
+        left: 18%;
+        top: 94%;
+    }
+
+    footer {
+        position: relative;
+        top: 10%;
+        
+    }
+}
+
+@media screen and (min-width: 750px) and(max-width: 900px){
+    #imagem1 {
+        position:absolute;
+        left: 18%;
+        top: 20%;
+    }
+
+}
+
+
+/* @media (min-width: 00px) {
+    
+
+    #imagem2 {
+        position:absolute;
+        left: 44%;
+        top: 5%;
+    }
+
+    #imagem3 {
+        position:absolute;
+        left: 68%;
+        top: 50%;
+    }
+
+    #imagem4 {
+        position:absolute;
+        left: 18%;
+        top: 60%;
+    }
+
+    #imagem5 {
+        position:absolute;
+        left: 44%;
+        top: 60%;
+    }
+
+    #imagem6 {
+        position:absolute;
+        left: 68%;
+        top: 60%;
+    }
+
+    #imagem7 {
+        position:absolute;
+        left: 18%;
+        top: 70%;
+    }
+
+    #imagem8 {
+        position:absolute;
+        left: 44%;
+        top: 70%;
+    }
+
+    #imagem9 {
+        position:absolute;
+        left: 68%;
+        top: 70%;
+    }
+
+    #imagem10 {
+        position:absolute;
+        left: 18%;
+        top: 80%;
+    }
+} */
 
