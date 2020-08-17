@@ -44,6 +44,12 @@
     100% {left:200px; top:0px;}
     }
 
+    footer {
+        position: relative;
+        top: 20%;
+        
+    }
+
 }
 
 @media (min-width: 800px) {

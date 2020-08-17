@@ -16,6 +16,12 @@ figure {
         width: 200px;
         height: 130px;
     }
+
+    footer {
+        position: relative;
+        top: 26%;
+        
+    }
 }
 
 @media only screen and (max-width: 900px) {

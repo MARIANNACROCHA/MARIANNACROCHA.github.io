@@ -100,10 +100,17 @@ h3 {
         top: 96%;
     }
 
+    #imagem1:hover,#imagem2:hover,#imagem3:hover,#imagem4:hover,
+    #imagem5:hover,#imagem6:hover,#imagem7:hover,#imagem8:hover,
+    #imagem9:hover,#imagem10:hover  {
+        width: 100px ;
+        height: 100px;
+    }
+    
+
     footer {
         position: relative;
-        top: 10%;
+        top: 26%;
         
     }
 }
-

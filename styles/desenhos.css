@@ -1,4 +1,5 @@
-#imagem11,#imagem12,#imagem13,#imagem14,#imagem15,#imagem16,#imagem17{
+#imagem11,#imagem12,#imagem13,#imagem14,#imagem15,#imagem16,#imagem17,#imagem18,
+#imagem19,#imagem20{
     width: 100px ;
     height: 100px;
     border-radius: 5px;
@@ -24,7 +25,8 @@ h3 {
         font-size: 14px;
         margin-bottom: 0;
     }
-    #imagem11,#imagem12,#imagem13,#imagem14,#imagem15,#imagem16,#imagem17{
+    #imagem11,#imagem12,#imagem13,#imagem14,#imagem15,#imagem16,#imagem17,#imagem18,
+    #imagem19,#imagem20{
         width: 50px ;
         height: 50px;
         border-radius: 5px;
@@ -75,54 +77,35 @@ h3 {
         top: 84%;
     }
 
+    #imagem18 {
+        position:absolute;
+        left: 44%;
+        top: 84%;
+    }
+
+    #imagem19 {
+        position:absolute;
+        left: 68%;
+        top: 84%;
+    }
+
+    #imagem20 {
+        position:absolute;
+        left: 18%;
+        top: 96%;
+    }
+
+    #imagem11:hover,#imagem12:hover,#imagem13:hover,#imagem14:hover,
+    #imagem15:hover,#imagem16:hover,#imagem17:hover,#imagem18:hover,
+    #imagem19:hover,#imagem20:hover  {
+        width: 100px ;
+        height: 100px;
+    }
+    
+
     footer {
         position: relative;
-        top: 10%;
+        top: 26%;
         
     }
 }
-
-/* @media only screen and (min-width: 800px) {
-    #imagem11 {
-        position:absolute;
-        left: 18%;
-        top: 40%;
-    }
-
-    #imagem12 {
-        position:absolute;
-        left: 44%;
-        top: 50%;
-    }
-
-    #imagem13 {
-        position:absolute;
-        left: 68%;
-        top: 50%;
-    }
-
-    #imagem14 {
-        position:absolute;
-        left: 18%;
-        top: 60%;
-    }
-
-    #imagem15 {
-        position:absolute;
-        left: 44%;
-        top: 60%;
-    }
-
-    #imagem16 {
-        position:absolute;
-        left: 68%;
-        top: 60%;
-    }
-
-    #imagem17 {
-        position:absolute;
-        left: 18%;
-        top: 70%;
-    }
-}
- */
